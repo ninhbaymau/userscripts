@@ -2,7 +2,7 @@
 // @name               Devtools for Mobile
 // @namespace     https://eruda.liriliri.io/
 // @description   Console for mobile browsers
-// @require       https://cdn.jsdelivr.net/npm/eruda@3.0.1/eruda.js
+// @require       https://cdn.jsdelivr.net/npm/eruda
 // @run-at        document-start
 // @include       *://*/*
 // @grant         none
