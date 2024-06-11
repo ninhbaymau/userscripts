@@ -6,8 +6,7 @@
 // @description   Prevents websites from knowing that you switched tabs or unfocused the window
 // @include       *
 // @run-at        document-start
-// @downloadURL https://update.greasyfork.org/scripts/429635/Always%20on%20focus.user.js
-// @updateURL https://update.greasyfork.org/scripts/429635/Always%20on%20focus.meta.js
+// @grant         unsafeWindow
 // ==/UserScript==
 
 
