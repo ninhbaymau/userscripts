@@ -9,7 +9,12 @@
 // @grant         unsafeWindow
 // ==/UserScript==
 
-
+var unsafeWindow;
+(function() {
+    var div = document.createElement("div");
+    div.setAttribute("onclick", "return window");
+    unsafeWindow = div.onclick();
+})();
 unsafeWindow.onblur = null;
 unsafeWindow.blurred = false;
 
