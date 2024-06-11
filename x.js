@@ -41,3 +41,4 @@ document.onvisibilitychange = null;
 Object.defineProperty(document, "visibilityState", { value: "visible" });
 Object.defineProperty(document, "hidden", { value: false });
 Object.defineProperty(document, "mozHidden", { value: false });
+console.log('Disable Page Visibility API Enabled.');
