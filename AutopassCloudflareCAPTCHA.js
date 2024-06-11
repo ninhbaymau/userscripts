@@ -12,4 +12,9 @@
 // @downloadURL https://raw.githubusercontent.com/FiorenMas/Userscripts/release/release/Autopass20Cloudflare20CAPTCHA20in20iFrame.user.js
 // @updateURL https://raw.githubusercontent.com/FiorenMas/Userscripts/release/release/Autopass20Cloudflare20CAPTCHA20in20iFrame.meta.js
 // ==/UserScript==
-async function main(){"use strict";const l=window.global_module;let n=await l.waitForElement("input[type='checkbox']",null,null,200,-1);l.clickElement($(n).eq(0)[0]),n=await l.waitForElement("span[class='mark']",null,null,200,-1),l.clickElement($(n).eq(0)[0])}$(document).ready((()=>main()));
+async function main(){
+  "use strict";
+  const l=window.global_module;
+  console.log(l);
+  let n=await l.waitForElement("input[type='checkbox']",null,null,200,-1);
+  l.clickElement($(n).eq(0)[0]),n=await l.waitForElement("span[class='mark']",null,null,200,-1),l.clickElement($(n).eq(0)[0])}$(document).ready((()=>main()));
