@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        PreventPageVisibility 
 // @namespace   https://github.com/IceWreck
-// @match       *://*/*
+// @match       https://acme.com/webapis/visibility.html
 // @run-at      document-start
 // @grant       none
 // @version     1.1
