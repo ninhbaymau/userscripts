@@ -19,6 +19,6 @@ let events_to_block = [
   "mouseleave"
 ]
 
-for (event_name of events_to_block) {
-  alert("cc");
+for (let event_name of events_to_block) {
+  alert(event_name);
 }
